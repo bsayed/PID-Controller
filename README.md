@@ -1,6 +1,7 @@
 # CarND-Controls-PID
-This project was part of the Self-Driving Car Engineer Nanodegree Program
-
+This project implements a PID controller in C++ to maneuver a vehicle around a track in a simulator.
+The simulator provides the cross track error (CTE) and the velocity (mph) in order to compute the appropriate steering angle and the throttle control.
+A PID controller was implemented to control the steering angle and a PD controller was implemented to control the throttle.
 ---
 
 ## Dependencies
